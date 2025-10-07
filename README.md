@@ -19,9 +19,9 @@ Still in early stages (needs training on larger epochs, better calorie count, be
 
 
 # Images
-![Example Prediction] (./example_usage.jpg)
+![Example Prediction](./example_usage.jpg)
 
-![Home page] (./start_page.jpg)
+![Home page](./start_page.jpg)
 
 # Challenges
 
