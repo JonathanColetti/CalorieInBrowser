@@ -2,7 +2,7 @@
 # Calorie counter in browser
 Web-based application that uses deep learning models directly in the browser to identify food from an image (classifier), estimate its volume (segmentation), and provide a rough calorie count. This project demonstrates the power of running AI tasks entirely on the client side using TensorFlow.js.
 
-# URL [`Webapp`]()
+# URL [`Webapp`](https://jonathancoletti.github.io/CalorieInBrowser/)
 
 # IMPORTANT INFO
 Still in early stages (needs training on larger epochs, better calorie count, better food db, better/newer arch) but functional.
