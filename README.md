@@ -23,6 +23,14 @@ Still in early stages (needs training on larger epochs, better calorie count, be
 
 ![Home page](./start_page.jpg)
 
+# Vast AI
+
+Vast AI was used to train the models. The command is
+
+```
+vastai create instance <OFFER_ID> --image vastai/tensorflow:2.16.1-cuda-12.4.1 --env '-p 1111:1111 -p 6006:6006 -p 8080:8080 -p 8384:8384 -p 72299:72299 -e OPEN_BUTTON_PORT=1111 -e OPEN_BUTTON_TOKEN=1 -e JUPYTER_DIR=/ -e DATA_DIRECTORY=/workspace/ -e PORTAL_CONFIG="localhost:1111:11111:/:Instance Portal|localhost:8080:18080:/:Jupyter|localhost:8080:8080:/terminals/1:Jupyter Terminal|localhost:8384:18384:/:Syncthing|localhost:6006:16006:/:Tensorboard"' --onstart-cmd 'entrypoint.sh' --disk 200 --jupyter --ssh --direct
+```
+
 # Challenges
 
 ## Dataset
